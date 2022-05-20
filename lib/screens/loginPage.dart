@@ -53,11 +53,17 @@ class LoginPage extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
-                  SignUpContainer(bioDetails: "Name", obscureText: false),
+                  SignupContainer(
+                      bioDetails: "Name",
+                      obscureText: false,
+                      keyboardType: TextInputType.name),
                   SizedBox(
                     height: 7,
                   ),
-                  SignUpContainer(bioDetails: "PassWord", obscureText: true),
+                  SignupContainer(
+                      bioDetails: "PassWord",
+                      obscureText: true,
+                      keyboardType: TextInputType.visiblePassword),
                   SizedBox(
                     height: 30,
                   ),
@@ -72,11 +78,18 @@ class LoginPage extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
-                  SignUpContainer(bioDetails: "Phone", obscureText: false),
+                  SignupContainer(
+                    bioDetails: "Phone",
+                    obscureText: false,
+                    keyboardType: TextInputType.number,
+                  ),
                   SizedBox(
                     height: 7,
                   ),
-                  SignUpContainer(bioDetails: "OTP", obscureText: true),
+                  SignupContainer(
+                      bioDetails: "OTP",
+                      obscureText: true,
+                      keyboardType: TextInputType.number),
                   SizedBox(
                     height: 25,
                   ),

@@ -39,6 +39,7 @@ dependencies:
   carousel_indicator: ^1.0.6
   google_fonts: ^2.3.2
   flutter_native_splash: ^2.1.6
+  email_validator: ^2.0.1
 flutter_native_splash:
   color: "#FFFFFF"
   image: assets/images/splashScreen.png

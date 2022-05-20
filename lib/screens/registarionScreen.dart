@@ -65,45 +65,45 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               SizedBox(
                 height: 26,
               ),
-              SignUpContainer(
-                bioDetails: "Name",
-                obscureText: false,
-              ),
+              SignupContainer(
+                  bioDetails: "Name",
+                  obscureText: false,
+                  keyboardType: TextInputType.name),
               SizedBox(
                 height: 10,
               ),
-              SignUpContainer(
-                bioDetails: "UserName",
-                obscureText: false,
-              ),
+              SignupContainer(
+                  bioDetails: "UserName",
+                  obscureText: false,
+                  keyboardType: TextInputType.name),
               SizedBox(
                 height: 10,
               ),
-              SignUpContainer(
-                bioDetails: "Email",
-                obscureText: false,
-              ),
+              SignupContainer(
+                  bioDetails: "Email",
+                  obscureText: false,
+                  keyboardType: TextInputType.emailAddress),
               SizedBox(
                 height: 10,
               ),
-              SignUpContainer(
-                bioDetails: "Phone",
-                obscureText: false,
-              ),
+              SignupContainer(
+                  bioDetails: "Phone",
+                  obscureText: false,
+                  keyboardType: TextInputType.number),
               SizedBox(
                 height: 10,
               ),
-              SignUpContainer(
-                bioDetails: "Birthday",
-                obscureText: false,
-              ),
+              SignupContainer(
+                  bioDetails: "Birthday",
+                  obscureText: false,
+                  keyboardType: TextInputType.datetime),
               SizedBox(
                 height: 10,
               ),
-              SignUpContainer(
-                bioDetails: "Confirm",
-                obscureText: true,
-              ),
+              SignupContainer(
+                  bioDetails: "Confirm",
+                  obscureText: true,
+                  keyboardType: TextInputType.name),
               SizedBox(
                 height: 30,
               ),

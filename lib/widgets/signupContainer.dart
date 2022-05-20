@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class SignUpContainer extends StatelessWidget {
+class SignupContainer extends StatelessWidget {
   String bioDetails;
   bool obscureText;
-  SignUpContainer({required this.bioDetails, required this.obscureText});
+  TextInputType keyboardType;
+
+  SignupContainer(
+      {required this.bioDetails,
+      required this.obscureText,
+      required this.keyboardType});
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -37,6 +43,7 @@ class SignUpContainer extends StatelessWidget {
           ),
           Flexible(
             child: TextField(
+              keyboardType: keyboardType,
               autofocus: true,
               obscureText: obscureText,
               decoration: InputDecoration(
